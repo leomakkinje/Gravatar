@@ -148,7 +148,7 @@ struct ContentView: View {
 
 ## Documentation
 
-Detailed documentation for `Gravatar` and `GravatarImage` is available in Xcode's Quick Help sidebar and in the Developer Documentation window.
+Detailed documentation for `Gravatar` and `GravatarImage` is available in Xcode's Quick Help sidebar and Developer Documentation window, and online in the [Swift Package Index](https://swiftpackageindex.com/leomakkinje/Gravatar/1.0.1/documentation/gravatar).
 
 ## License
 
