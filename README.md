@@ -152,7 +152,7 @@ Detailed documentation for `Gravatar` and `GravatarImage` is available in Xcode'
 
 ## License
 
-This repository is open source and available under the MIT license. For more information, see the LICENSE file.
+This repository is open source and available under the MIT license. For more information, see the [LICENSE](https://github.com/leomakkinje/Gravatar/blob/main/LICENSE) file.
 
 ## Disclaimer
 
