@@ -15,6 +15,7 @@ import XCTest
 final class GravatarImageStyleTests: XCTestCase {
 
     // MARK: - Tests for property 'style'
+    @MainActor
     func test_GravatarImageStyle_givenStyleSquare_returnsStyle_Square() {
         let sut = GravatarImageStyle(.square)
         let sutResult = sut.style
@@ -23,6 +24,7 @@ final class GravatarImageStyleTests: XCTestCase {
     }
 
     // MARK: - Tests for property 'cornerRadius'
+    @MainActor
     func test_GravatarImageStyle_hasCornerRadius_Fifteen() {
         let sut = GravatarImageStyle(.square)
         let sutResult = sut.cornerRadius
@@ -31,6 +33,7 @@ final class GravatarImageStyleTests: XCTestCase {
     }
 
     // MARK: - Tests for property 'strokeLineWidth'
+    @MainActor
     func test_GravatarImageStyle_hasStrokeLineWidth_One() {
         let sut = GravatarImageStyle(.square)
         let sutResult = sut.strokeLineWidth

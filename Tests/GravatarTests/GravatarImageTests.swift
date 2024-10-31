@@ -15,6 +15,7 @@ import XCTest
 final class GravatarImageTests: XCTestCase {
 
     // MARK: - Tests for property 'gravatar'
+    @MainActor
     func test_GravatarImage_givenGravatar_canRequestAvatarURL() {
         let sut = GravatarImage(Gravatar(testEmailAddress))
         let sutResult = sut.gravatar.avatarURL
@@ -22,6 +23,7 @@ final class GravatarImageTests: XCTestCase {
         XCTAssertEqual(sutResult, expectedResult)
     }
 
+    @MainActor
     func test_GravatarImage_givenAvatarURL_returnsImage() async throws {
         let sut = GravatarImage(Gravatar(testEmailAddress))
         do {
@@ -38,6 +40,7 @@ final class GravatarImageTests: XCTestCase {
     }
 
     // MARK: - Tests for property 'style'
+    @MainActor
     func test_GravatarImage_givenNoStyle_returnsDefaultStyle() {
         let sut = GravatarImage(Gravatar(testEmailAddress))
         let sutResult = sut.style
@@ -45,6 +48,7 @@ final class GravatarImageTests: XCTestCase {
         XCTAssertEqual(sutResult, expectedResult)
     }
 
+    @MainActor
     func test_GravatarImage_givenCustomStyle_returnsCustomStyle() {
         let sut = GravatarImage(Gravatar(testEmailAddress), style: .circle)
         let sutResult = sut.style

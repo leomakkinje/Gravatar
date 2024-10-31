@@ -1,7 +1,7 @@
 # Gravatar
 
 <p>
-    <img src="https://img.shields.io/badge/Swift-5.10-orange" />
+    <img src="https://img.shields.io/badge/Swift-6.0-orange" />
     <img src="https://img.shields.io/badge/Framework-SwiftUI-orange" />
     <img src="https://img.shields.io/badge/Package_Manager-SPM-orange" />
     <img src="https://img.shields.io/badge/Platform-iOS_17%2B_%7C_macOS_14%2B_%7C_tvOS%2017%2B_%7C_visionOS_1%2B_%7C_watchOS_10%2B-orange" />
